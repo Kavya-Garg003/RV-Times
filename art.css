@@ -1,0 +1,102 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header img {
+    max-width: 200px;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px;
+}
+.nav {
+    background-color: #eee;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+}
+img {
+    width: 475px;
+    height: 600px;
+}
+
+.main {
+    background-image: url("https://emba.rvu.edu.in/wp-content/uploads/2023/04/RVU_AcademicBlock-01-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+.articles-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+article {
+    width: 32%;
+    margin: 10px;
+    background-color: lightgray;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#back-to-top {
+    position: relative;
+    bottom: 10px;
+    left: 46%;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: darkgrey;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 10px;
+}
+

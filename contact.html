@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RV Times - Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+<header class="header">
+    <h1>RV Times</h1>
+    <h3>RV University Student News Magazine</h3>
+</header>
+
+<nav class="nav">
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="contact-page">
+    <main>
+        <section class="contact-form-container">
+            <h2><strong>Get in touch</strong></h2>
+            <div style="text-align: center;"><h3>Please fill in the details. we will contact you shortly</h3>
+                <img src="download%20(1).png" width="100" alt="logo"></div>
+            <form action="/send-message" method="POST">
+                <label for="name"><strong>NAME:</strong></label>
+                <input type="text" name="name" id="name" required placeholder="Your Name">
+                <label for="email"><strong>EMAIL:</strong></label>
+                <input type="email" name="email" id="email" required placeholder="your@email.com">
+                <label for="message"><strong>MESSAGE</strong></label>
+                <textarea name="message" id="message" rows="5" required placeholder="Your message..."></textarea>
+                <button type="submit" aria-label="Send your message to RV Times">Send Message</button>
+            </form>
+        </section>
+
+        <section class="contact-info">
+
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> info@rvtimes.com</p>
+            <p><strong>Phone:</strong> +91 80 2345 6789</p>
+            <p><strong>Address:</strong> RV University, Bangalore, India</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; RV Times 2023 - All Rights Reserved</p>
+    </footer>
+</div>
+</body>
+</html>
