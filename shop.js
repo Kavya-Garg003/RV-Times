@@ -3,26 +3,26 @@ const products = [
     {
         id: 1,
         name: "RV Times Mug",
-        image: "images/mug.jpg",
+        image: "mug.jpg",
         price: 15.99,
     },
     {
         id: 2,
         name: "RV Times T-Shirt",
-        image: "images/tshirt.jpg",
+        image: "tshirt.jpg",
         price: 22.99,
         sizes: ["S", "M", "L", "XL"],
     },
     {
         id: 3,
         name: "RV Times Magazine (Latest Issue)",
-        image: "images/magazine.jpg",
+        image: "magazine.jpg",
         price: 9.99,
     },
     {
         id: 4,
         name: "RV Times Newspaper (Monthly Subscription)",
-        image: "images/newspaper.jpg",
+        image: "newspaper.jpg",
         price: 4.99,
     },
 ];
